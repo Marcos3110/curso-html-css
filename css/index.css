@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #10451D;
+    border-bottom: 10px solid rgb(36, 36, 36);
+    padding: px 20px;
+}
+
+nav{
+    background-color: #10451D;
+    text-align: right;
+}
+
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #6EDE8A;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 30px;
+}
+
+a::before {
+    content: "";
+    background-color: #B7EFC5;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+
+#button {
+    display: inline-block;
+    background-color: #000;
+    padding: 18px 20px; 
+    box-shadow: 5px 5px 0 #000;
+    margin-right: 15px;
+    transition: transform 200ms linear;
+}
+#button:hover{
+    transform: scale(1.08);
+    /*botão bonito*/
+}
